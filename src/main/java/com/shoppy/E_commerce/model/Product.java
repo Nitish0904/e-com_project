@@ -14,6 +14,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Entity
 @NoArgsConstructor
+@Table
 public class Product
 {
     @Id

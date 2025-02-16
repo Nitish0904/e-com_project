@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.shoppy</groupId>
 	<artifactId>E-commerce</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>E-commerce</name>
 	<description>First project</description>
 	<url/>
@@ -46,8 +46,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
